@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+<head>
+  <meta charset="utf-8">
+  <title page-title>My Awesome App</title>
+  <meta name="description" content="Some cool app" />
+  <meta name="keywords" content="app" />
+  <meta name="author" content="BillHsiun<haibxz@gmail.com>" />
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="copyright" content="BillHisun" />
+
+  <link rel="stylesheet" href="/assets/css/vendor.css?rv=__RELEASE__" />
+  <link rel="stylesheet" href="/assets/app.css?rv=__RELEASE__" />
+</head>
+<body ng-controller="MainCtrl as main" class="{{$state.current.data.specialClass}}">
+<div id="wrap" ui-view></div>
+
+<script src="/assets/js/vendor.min.js?rv=__RELEASE__"></script>
+
+<!-- angular 1.5.8  -->
+<script src="/assets/lib/angular/1.5.8/angular.min.js"></script>
+<script src="/assets/lib/ui-router/0.2.11/angular-ui-router.min.js"></script>
+<script src="/assets/lib/angular-translate/2.11.1/angular-translate.min.js"></script>
+<!-- Angular Boostrap -->
+<script src="/assets/js/bootstrap/ui-bootstrap-tpls-0.12.0.min.js"></script>
+
+<script src="/assets/templates.js?rv=__RELEASE__"></script>
+<script src="/assets/app.js?rv=__RELEASE__"></script>
+
+</body>
+</html>
+<!-- {{RELEASE}} -->
