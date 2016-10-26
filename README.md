@@ -1,5 +1,7 @@
 # Readme
 
+[![Build Status](https://travis-ci.org/bilxio/angular-gulp-template.svg?branch=master)](https://travis-ci.org/bilxio/angular-gulp-template)
+
 Yet another simple template project for creating a single page application with AngularJS & Gulp.
 
 ## Features
